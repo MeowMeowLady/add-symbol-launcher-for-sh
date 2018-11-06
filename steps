@@ -1,0 +1,8 @@
+1. open a terminal 
+2. enter subl ~/.bashrc or vim ~/.bashrc
+3. take pycharm as an example:
+   add below lines:
+   1) export PATH=/media/dongmeng/Software/pycharm_ubuntu/pycharm-community-2018.1.4/bin:${PATH}
+   2) alias pycharm='(pycharm.sh > /tmp/pycharm.log &)'  # (...&) keeps the program valid even if closing the terminal
+   save and close
+4. source ~/.bashrc  #make it valid
